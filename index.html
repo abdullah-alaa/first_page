@@ -1,0 +1,215 @@
+<html>
+<head>
+    <title> my first page</title>
+    <style>
+ul{
+background-color: gray;
+overflow: hidden;
+list-style-type: none;
+}
+
+li a{
+color:white;
+display:block;
+padding:20px;
+text-decoration: none;
+float:right;
+}
+a:hover{
+color:rgb(145, 255, 0);
+cursor: grab;
+background-color: rgb(255, 0, 149);
+
+
+
+}
+h1{
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:blueviolet;
+text-decoration: underline;
+
+}
+img{
+
+
+    width:
+}
+table,th,td{
+border:2px solid black;
+border-collapse: collapse;
+
+
+}
+
+
+
+
+    </style>
+</head>
+<body>
+<ul>
+<li><a href="https://www.google.com/?hl=ar">home</a></li>
+ <li><a href="https://www.facebook.com/"> facebook</a></li>  
+ <li><a href="https://twitter.com/">twitter</a></li>
+ <li><a href="https://www.youtube.com/">youtube</a></li> 
+
+
+</ul>
+<h1>image map </h1>
+<img src="laptop.jpg"  usemap="#picture">
+<map name="picture">
+<area shape="rect" coords="300,100,700,545" alt="laptop" href="https://en.wikipedia.org/wiki/Laptop">
+<area shape="circle" coords="855,470,80" alt="coffee" href="https://en.wikipedia.org/wiki/Coffee">
+<area shape="rect" coords="730,300,790,430" alt="phone" href="https://en.wikipedia.org/wiki/Mobile_phone">
+<area shape="rect" coords="0,380,240,520" alt="book" href="https://en.wikipedia.org/wiki/Book">
+</map>
+<br>
+<br>  
+
+
+<h1>table </h1>
+
+<table width="80%" height="600px">
+<tr>
+    <th width="15%">       </th>
+    <th>monday</th>
+    <th width="15%">tuesday</th>
+    <th>wednesday</th>
+    <th>thursday</th>
+    <th>friday</th>
+</tr>
+<tr>
+<td>1:00pm</td>
+<td rowspan="2" bgcolor="yellow"><a href="https://www.google.com/?hl=ar">HTML </a></td>
+<td>   </td>
+<td rowspan="2" bgcolor="yellow">HTML</td>
+<td rowspan="8" bgcolor="orange">HTML HOURS<br> BY APPS</td>
+<td rowspan="2" bgcolor="yellow">HTML</td>
+</tr>
+<tr>
+    <td>3:00pm</td>
+    
+    <td rowspan="2" bgcolor="gray" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;"> DEPTMeeting  </td>
+    
+
+    </tr>
+    <tr>
+        <td>2:00pm</td>
+        <td rowspan="3" bgcolor="green">CSS</td>
+        <td rowspan="3" bgcolor="green">CSS</td>
+        <td rowspan="3" bgcolor="green">CSS</td>
+        
+        </tr>
+        <tr>
+            <td>3:00pm</td>
+            
+            <td>   </td>
+            
+            </tr>
+            <tr>
+                <td>5:00pm</td>
+                <td rowspan="3" bgcolor="gray" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">EC Meeting</td>
+               
+                </tr>
+                <tr>
+                    <td>3:30pm</td> 
+                    <td rowspan="3" style="background-color:aqua">CSC205</td>
+                    <td rowspan="3" bgcolor="aqua">CSC205</td>
+                    <td rowspan="3" bgcolor="aqua">CSC205</td>
+                    </tr>
+                    <tr>
+                        <td>3:30pm</td> 
+                      
+                        </tr>
+                        <tr>
+                            <td>4:00pm</td> 
+                           <td>     </td>
+                            </tr>
+                        </table >
+                            <br>
+                            <br>
+
+
+
+
+
+        
+<h1>the same table with colgroup tag</h1>  
+
+<table width="80%" height="600px">
+    
+    
+
+
+<colgroup>
+<col span="2" style="background-color:yellowgreen">
+<col span="2" >
+<col span="2" style="background-color:grey" >
+</colgroup>
+    <tr>
+        <th width="15%">       </th>
+        <th>monday</th>
+        <th width="15%">tuesday</th>
+        <th>wednesday</th>
+        <th>thursday</th>
+        <th>friday</th>
+    </tr>
+    <tr>
+    <td>1:00pm</td>
+    <td rowspan="2" ><a href="https://www.google.com/?hl=ar">HTML </a></td>
+    <td>   </td>
+    <td rowspan="2" >HTML</td>
+    <td rowspan="8" >HTML HOURS<br> BY APPS</td>
+    <td rowspan="2" >HTML</td>
+    </tr>
+    <tr>
+        <td>3:00pm</td>
+        
+        <td rowspan="2"  style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;"> DEPTMeeting  </td>
+        
+    
+        </tr>
+        <tr>
+            <td>2:00pm</td>
+            <td rowspan="3">CSS</td>
+            <td rowspan="3" >CSS</td>
+            <td rowspan="3" >CSS</td>
+            
+            </tr>
+            <tr>
+                <td>3:00pm</td>
+                
+                <td>   </td>
+                
+                </tr>
+                <tr>
+                    <td>5:00pm</td>
+                    <td rowspan="3" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">EC Meeting</td>
+                   
+                    </tr>
+                    <tr>
+                        <td>3:30pm</td> 
+                        <td rowspan="3" >CSC205</td>
+                        <td rowspan="3">CSC205</td>
+                        <td rowspan="3" >CSC205</td>
+                        </tr>
+                        <tr>
+                            <td>3:30pm</td> 
+                          
+                            </tr>
+                            <tr>
+                                <td>4:00pm</td> 
+                               <td>     </td>
+                                </tr>
+    
+    
+    </table >
+
+
+
+</body>
+
+
+
+</html>
